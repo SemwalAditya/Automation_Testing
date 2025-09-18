@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Palindrome {
     public static void main(String[] args) {
         try (Scanner scanner = new Scanner(System.in)) {
-            System.out.println("Kindly enter your number");
+            System.out.println("Kindly enter an valid alphabet");
             String input = scanner.nextLine();
             boolean isPalindrome = isPalindrome(input);
             if (isPalindrome) {
